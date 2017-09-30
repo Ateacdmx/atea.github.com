@@ -5,4 +5,4 @@ title: QUIEN SOMOS
 
 Geocide
 
-![useful image]({{ site.url }}/images/geocide.jpg)
+<img src="images/geoide.jpg">
