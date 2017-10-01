@@ -3,7 +3,7 @@ layout: default
 title: QUIEN SOMOS
 ---
 
-<h4><a href="https://www.facebook.com/BasicaStudio/" target="_blank">Aazufre</a> // Maiqo</h4>
+<h4><a href="https://www.facebook.com/aazufre/" target="_blank">Aazufre</a> // Maiqo</h4>
 <img src="{{ site.url }}/images/aazufre.jpeg" height="400" style="margin-right: 20px" vspace="10" align="left" />
 
 <br clear="all">
