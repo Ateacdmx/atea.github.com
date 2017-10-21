@@ -1,4 +1,4 @@
-body { font-size: .7em; font-family: 'Helvetica'; margin: 60px auto; width: 70%; }
+body { font-size: .7em; font-family: 'Helvetica'; margin: 60px auto; width: 70%; text-align:justify }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
@@ -17,4 +17,9 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 header { border-top: 1px solid #d5d5d5; border-bottom: 1px solid #d5d5d5; }
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
-header img {padding: 0; display: block; margin: 0 auto; max-height: 100%; max-width: 100%;}
+header img {padding: 0; display: block; margin: 0 auto;  max-height: 100%; max-width: 100%;}
+
+img {padding: 0; margin: 0 auto; padding-bottom: .5cm; max-width: 50%;}
+
+
+

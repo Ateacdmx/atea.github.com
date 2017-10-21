@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign bios = site.data.bios %}
+{% for bio in bios %}
+	<h2>{% if bio.url_name %}<a href="{{ bio.url_name }}" target="_blank">{{ bio.name }}</a>
+		{% else %} {{ bio.name }}
+		{%  endif %}
+		{% if bio.project %} //
+			{% if bio.url_project %}<a href="{{ bio.url_project }}" target="_blank">{{ bio.project }}</a>
+			{% else %} {{ bio.project }}
+			{% endif %}
+		{% endif %}</h2>
+		
+	<img src="{{ site.url }}/images/{{ bio.image_1 }}" /><img src="{{ site.url }}/images/{{ bio.image_2 }}" />
+	<div>
+		{{ bio.bio }}
+	</div>	
+	
+	<br clear="all">
+	
+{%  endfor %}
+
