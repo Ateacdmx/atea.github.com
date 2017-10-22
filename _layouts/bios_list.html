@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{{ content }}
+<body>
 
 {% assign bios = site.data.bios %}
 {% for bio in bios %}
@@ -14,13 +14,37 @@ layout: default
 			{% else %} {{ bio.project }}
 			{% endif %}
 		{% endif %}</h2>
-		
-	<img src="{{ site.url }}/images/{{ bio.image_1 }}" /><img src="{{ site.url }}/images/{{ bio.image_2 }}" />
+	
+	<button class="accordion">
+		<img src="{{ site.url }}/images/{{ bio.image_1 }}" /><img src="{{ site.url }}/images/{{ bio.image_2 }}" />
+	</button>
+	<div class="panel">
+	  <p>{{ bio.bio }}</p>
+	</div>
+	
 	<div>
-		{{ bio.bio }}
+		
 	</div>	
 	
 	<br clear="all">
 	
 {%  endfor %}
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+	this.classList.toggle("active");
+	var panel = this.nextElementSibling;
+	if (panel.style.maxHeight){
+	  panel.style.maxHeight = null;
+	} else {
+	  panel.style.maxHeight = panel.scrollHeight + "px";
+	} 
+  }
+}
+</script>
+</body>
 

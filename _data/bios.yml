@@ -1,34 +1,64 @@
-- name: "Maiquo"
-  project: "Azufree"
-  url_project: "https://www.facebook.com/aazufre/"
-  image_1 : "maiquo_1.jpeg"
+- name: "Jesús López"
+  project: "Básica"
+  url_project: "https://www.facebook.com/BasicaStudio/"
+  image_1 : "jesus_1.jpeg"
   bio : ""
+- name: "Eli Acosta"
+  project: "Básica"
+  url_project: "https://www.facebook.com/BasicaStudio/"
+  bio : ""
+- name: "Miguel A. Covarrubias López"
+  project: "Básica"
+  url_project: "https://www.facebook.com/BasicaStudio/"
+  image_1: "miguel_1.jpeg"
+  bio : "
+Miguel nació el 18 de Mayo de 1997 en Ecatepec, Estado de México. Desde temprana edad muestra preocupación por los conflictos a los que se enfrenta en su contexto social y cultural. Por un lado las problemáticas ambientales y, por el otro, los problemas de la lucha de clases y la mala distribución de la riqueza. Ante la necesidad de generar un cambio decide ingresar a estudiar la licenciatura Economía en la Universidad Nacional Autónoma de México. Integrante activo de Básica Studio desde 2017, consciente de lo que representa la bicicleta como acto de resistencia, y en nuestro particular caso, la forma de producción artesanal creando un producto nacional frente a las grandes industrias tanto ciclistas como automovilísticas extranjeras. A pesar de su corta edad busca que se le de reconocimiento a un espacio colaborativo que no ha sido reconocido en las exigencias sociales."
 - name: "Agustín Robledo Prado"
   project: "Geoide"
-  url_name: "https://www.facebook.com/GEOIDEMX/"
+  url_project: "https://www.facebook.com/GEOIDEMX/"
   image_1 : "agustin_1.jpeg"
-  bio : ""
+  bio : "Nació el 31 de enero de 1989 en la Ciudad de México. 
+
+Diseñador Industrial egresado con mención honorífica del Centro de Investigaciones de Diseño Industrial CIDI, UNAM 2008-2014.</p> 
+
+<p>En 2008 comienza a involucrarse en procesos creativos trabajando en Monofaber y en 2009 con la artista plástica y escultora Francesca Dalla Benetta. Participa en el workshop Mexico Design Challenge 2011 desarrollado por Ariel Rojo y Kikkerland.</p> 
+
+<p>Cofundador de GEOIDE en 2013, con participación en el Abierto Mexicano de Diseño y TOCA, ediciones 2014 y 2015. Exhibición durante el año 2016 en JustMad Art Fair Madrid, España y Shimokitazawa Night Market en Tokio, Japón.</p> 
+
+<p>Actualmente y desde octubre de 2015 es miembro activo de ATEA, un espacio abierto para la creación colectiva y el intercambio de conocimientos, ubicado en el Centro Histórico de la Ciudad de México.
+
+Co-Fundador de Extinto, 2017."
 - name: "Aarón Mendoza"
   project: "Geoide"
   url_project: "https://www.facebook.com/GEOIDEMX/"
   image_1 : "aaron_1.jpeg"
+  bio : ""
+- name: "Sanya Hyland"
+  project: "Santa Rosa Letterpress"
+- name: "Maiqo"
+  project: "Aazufre"
+  url_project: "https://www.facebook.com/aazufre/"
+  image_1 : "maiqo_1.jpeg"
   bio : ""
 - name: "Meri Davies"
   project: "Pan Y Rosas Textiles"
   image_1: "meri_1.jpeg"
   image_2: "meri_2.jpeg"
   bio : "Armada con la máquina de coser de su mamá, Meri empezó su carrera en diseño de moda a los 5
-anos haciendo ropa para sus muñecas.
-Inspirada por su mamá, tías y abuelas creativas, se lanzó al mundo de textiles en todas sus
+anos haciendo ropa para sus muñecas.</p>
+
+<p>Inspirada por su mamá, tías y abuelas creativas, se lanzó al mundo de textiles en todas sus
 formas; de moda, costura, tejido a mano y en telar, serigrafía, bordado y más recientemente
-textiles electrónicos.
-Graduada de la licenciatura en Relaciones Internacionales por el RMIT en Australia Meri empezó
+textiles electrónicos.</p>
+
+<p>Graduada de la licenciatura en Relaciones Internacionales por el RMIT en Australia Meri empezó
 a trabajar con temas de migración, refugiados y justicia social. En 2013 con Darwin Community
 Arts, unió sus dos pasiones; textiles y cohesión social formando ‘Our Common Threads’ (Nuestros
 Hilos Comunes) – Un programa en el cual a partir de la actividad común de arte textil, mujeres, en
 particular inmigrantes y refugiadas pudieron contar sus historias y formar comunidad a través de
-diferencias culturales.
-A Meri le fascina el mundo de los textiles- los procesos, los productos y más que nada, su poder
+diferencias culturales.</p>
+
+<p>A Meri le fascina el mundo de los textiles- los procesos, los productos y más que nada, su poder
 increíble para transmitir historias y tejer comunidad. De estos temas floreció ‘Pan y Rosas
 Textiles’, el proyecto en el que se encuentra trabajando actualmente.
 El nombre Pan y Rosas proviene del eslogan famoso de trabajadores huelguistas en fabricas de
@@ -38,10 +68,19 @@ Para Meri este eslogan también es el cristal a través del cual percibe su mund
 pan’- las necesidades básicas de vida, pero sin ‘las rosas’- la expresión y apreciación de
 creatividad, negamos un aspecto fundamental de lo que nos hace humano."
 - name: "Karla Diaz"
+  url_name: "https://www.facebook.com/kdiluminacion/"
   image_1: "karla_1.jpeg"
   bio : ""
 - name: "Julia van Hoogstraten"
   url_name: "https://www.juliavanhoogstraten.com/"
   image_1: "julia_1.jpeg"
   image_2: "julia_2.jpeg"
-  bio :
+  bio : ""
+- name: "Omar Dulce Robles"
+  project: "Siembra Merced"
+  url_project: "https://www.facebook.com/SiembraMerced/"
+  bio : ""
+- name: "Andrea Ortega"
+  project: "Siembra Merced"
+  url_project: "https://www.facebook.com/SiembraMerced/"
+  bio : ""
